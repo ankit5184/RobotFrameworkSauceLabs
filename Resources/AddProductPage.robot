@@ -3,7 +3,6 @@ Library    SeleniumLibrary
 Variables   ../Locators/Locator.py
 Variables    ../TestData/Datafile.py
 
-
 *** Keywords ***
 Add product to the cart
     
