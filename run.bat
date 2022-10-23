@@ -1,2 +1,2 @@
-C:\Users\AnkitKumar\PycharmProjects\SauceDemoRobotFramework
-pabot --processes 7 --outputdir Results2 TestCases\*.robot
+E:\Project\Robot Project\SauceDemoRobotFramework
+pabot --processes 7 --outputdir Results1 TestCases\*.robot

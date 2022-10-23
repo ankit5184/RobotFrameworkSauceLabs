@@ -1,21 +1,16 @@
 ==============================================================================
 Suites                                                                        
 ==============================================================================
-Suites.TC3 productOrder                                                       
+Suites.TC2 AddProductPage                                                     
 ==============================================================================
-Sorting the products and getting the values                           $49.99
-$29.99
-$15.99
-$15.99
-$9.99
-$7.99
-© 2022 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+Add Product to Cart                                                   6
+6
 | PASS |
 ------------------------------------------------------------------------------
-Suites.TC3 productOrder                                               | PASS |
+Suites.TC2 AddProductPage                                             | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Suites                                                                | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
-Output:  E:\Project\Robot Project\SauceDemoRobotFramework\Results2\pabot_results\2\output.xml
+Output:  E:\Project\Robot Project\SauceDemoRobotFramework\Results1\pabot_results\1\output.xml
