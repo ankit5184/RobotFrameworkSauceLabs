@@ -13,23 +13,23 @@ pipeline {
         }
     }
    post {
-        	always {
-		        script {
-		          step(
-			            [
-			              $class              : 'RobotPublisher',
-			              outputPath          : 'Results1',
-			              outputFileName      : '**/output.xml',
-			              reportFileName      : '**/report.html',
-			              logFileName         : '**/log.html',
-			              disableArchiveOutput: false,
-			              passThreshold       : 50,
-			              unstableThreshold   : 40,
-			              otherFiles          : "**/*.png,**/*.jpg",
-			            ]
-		          	)
-		        }
-	  	}
+//         	always {
+// 		        script {
+// 		          step(
+// 			            [
+// 			              $class              : 'RobotPublisher',
+// 			              outputPath          : 'Results1',
+// 			              outputFileName      : '**/output.xml',
+// 			              reportFileName      : '**/report.html',
+// 			              logFileName         : '**/log.html',
+// 			              disableArchiveOutput: false,
+// 			              passThreshold       : 50,
+// 			              unstableThreshold   : 40,
+// 			              otherFiles          : "**/*.png,**/*.jpg",
+// 			            ]
+// 		          	)
+// 		        }
+// 	  	}
 	   success {  
              echo 'Build successfully executed'
          }  
