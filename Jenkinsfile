@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: "main", url:'https://github.com/ankitkumar5184/SauceDemoRobotFramework.git'
+                git branch: "main", url:'https://github.com/ankit5184/RobotFrameworkSauceLabs.git'
             }
         }
         stage('Test') {
